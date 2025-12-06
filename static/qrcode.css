@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+          button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .qr-container {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+                .download-btn {
+            background-color: #008CBA;
+            margin-top: 15px;
+        }
+        .download-btn:hover {
+            background-color: #007399;
+        }
