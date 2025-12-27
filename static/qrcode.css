@@ -1,10 +1,20 @@
-        body {
+       * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }      
+       body {
             font-family: Arial, sans-serif;
             max-width: 600px;
-            margin: 50px auto;
+            margin: 0px auto;
             padding: 20px;
             text-align: center;
         }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
         input[type="text"] {
             width: 80%;
             padding: 10px;
@@ -24,14 +34,15 @@
             background-color: #45a049;
         }
         .qr-container {
-            margin-top: 30px;
-            padding: 20px;
+            margin-top: 10px;
+            padding: 10px;
             border: 2px solid #ddd;
             border-radius: 10px;
+            width: auto;
         }
                 .download-btn {
             background-color: #008CBA;
-            margin-top: 15px;
+            margin-top: 5px;
         }
         .download-btn:hover {
             background-color: #007399;
